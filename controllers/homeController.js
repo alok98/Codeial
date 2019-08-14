@@ -1,3 +1,5 @@
-module.exports.home=function(rep,res){
-    return res.end("<h1>Express is working</h1>");
+module.exports.home=function(req,res){
+    res.render('home',{
+        title:" Home page"
+    })
 }
