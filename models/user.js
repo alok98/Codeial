@@ -18,4 +18,4 @@ const userSchema=mongoose.Schema({
 });
 
 const user=mongoose.model('user',userSchema);
-module.exports.user=user;
+module.exports=user;
