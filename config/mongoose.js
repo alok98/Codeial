@@ -7,4 +7,4 @@ db.once('open',function(){
     console.log("connected to database: mongodb");
 });
 
-//module.exports=db;
+module.exports=db;
